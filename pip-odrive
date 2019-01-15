@@ -6,7 +6,7 @@ sudo -H python2 get-pip.py
 sudo -H pip2 install --upgrade pip
 
 sudo -H pip install monotonic
-git clone https://github.com/neomanic/ODrive -b py27compat ODrive_py27compa
+git clone https://github.com/neomanic/ODrive -b py27compat ODrive_py27compat
 cd ODrive_py27compa/tools/
 sudo -H python setup.py sdist
 sudo -H pip install dist/odrive-*.dev0.tar.gz
